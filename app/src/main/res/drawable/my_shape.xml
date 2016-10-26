@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Color transition -->
+    <gradient android:angle="45"
+        android:startColor="@android:color/holo_red_dark"
+        android:endColor="@android:color/holo_red_light"
+        />
+
+    <!--padding -->
+    <padding android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        />
+
+    <corners android:radius="10dp"
+        />
+
+
+</shape>
