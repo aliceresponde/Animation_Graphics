@@ -14,23 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main);
-//        final ImageView imgRunner =(ImageView) findViewById(R.id.imgVRunner);
-//        imgRunner.setBackgroundResource(R.drawable.my_frame_animation);
-//        imgRunner.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Log.i("runner", "click");
-//                AnimationDrawable animationDrawable = (AnimationDrawable) imgRunner.getBackground();
-//                if (animationDrawable!=null) {
-//                    animationDrawable.start();
-//                }else
-//                    Log.e("runner","error");
-//            }
-//        });
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
